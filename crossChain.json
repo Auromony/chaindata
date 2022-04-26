@@ -1750,5 +1750,72 @@
     "gasStations": [],
     "explorers": [{ "url": "https://explorer.harmony.one/" }],
     "gasEstimates": {}
+  },
+  {
+    "name": "Harmony One Testnet Shard 0",
+    "chainId": 1666700000,
+    "domainId": "",
+    "confirmations": 10,
+    "shortName": "Harmony One Testnet",
+    "nativeCurrency": {
+      "name": "Testnet One",
+      "symbol": "ONE",
+      "decimals": 18
+    },
+    "type": "testnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ONE",
+        "mainnetEquivalent": "0x799a4202c12ca952cB311598a024C80eD371a41e",
+        "decimals": 18
+      },
+      "0x260f9c0d2a62b45c720a61ab839b31b6883d22ef": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": [
+      "https://api.s0.b.hmny.io",
+      "https://api.s1.b.hmny.io",
+      "https://api.s2.b.hmny.io",
+      "https://api.s3.b.hmny.io"
+    ],
+    "subgraph": ["https://auromony.loca.lt"],
+    "analyticsSubgraph": [""],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [{ "url": "https://explorer.pops.one/" }],
+    "gasEstimates": {}
+  },
+  {
+    "name": "Aurora Testnet",
+    "chainId": 1313161555,
+    "domainId": "",
+    "confirmations": 10,
+    "shortName": "Aurora Testnet",
+    "nativeCurrency": {
+      "name": "Aurora Testnet Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "type": "testnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x2382d68eb94daac4f2f52bac9502e30828254f01": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://testnet.aurora.dev/"],
+    "subgraph": ["https://auromony.loca.lt"],
+    "analyticsSubgraph": [""],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [{ "url": "https://testnet.aurorascan.dev/" }],
+    "gasEstimates": {}
   }
 ]
