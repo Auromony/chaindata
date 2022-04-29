@@ -1829,6 +1829,7 @@
       },
       "0x260f9c0d2a62b45c720a61ab839b31b6883d22ef": {
         "symbol": "TEST",
+        "mainnetEquivalent": "0xe71678794fff8846bFF855f716b0Ce9d9a78E844",
         "decimals": 18
       }
     },
@@ -1860,6 +1861,7 @@
       },
       "0x2382d68eb94daac4f2f52bac9502e30828254f01": {
         "symbol": "TEST",
+        "mainnetEquivalent": "0xe71678794fff8846bFF855f716b0Ce9d9a78E844",
         "decimals": 18
       }
     },
