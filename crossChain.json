@@ -1813,7 +1813,7 @@
     "name": "Harmony One Testnet Shard 0",
     "chainId": 1666700000,
     "domainId": "",
-    "confirmations": 10,
+    "confirmations": 1,
     "shortName": "Harmony One Testnet",
     "nativeCurrency": {
       "name": "Testnet One",
@@ -1845,7 +1845,7 @@
     "name": "Aurora Testnet",
     "chainId": 1313161555,
     "domainId": "",
-    "confirmations": 10,
+    "confirmations": 1,
     "shortName": "Aurora Testnet",
     "nativeCurrency": {
       "name": "Aurora Testnet Ether",
