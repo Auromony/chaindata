@@ -1834,7 +1834,7 @@
       }
     },
     "rpc": ["https://api.s0.b.hmny.io"],
-    "subgraph": ["https://auromony-subgraph.loca.lt/subgraphs/name/connext/nxtp-harmony-testnet"],
+    "subgraph": ["https://auromonysubgraph.loca.lt/subgraphs/name/connext/nxtp-harmony-testnet"],
     "analyticsSubgraph": [""],
     "faucets": [],
     "gasStations": [],
@@ -1866,7 +1866,7 @@
       }
     },
     "rpc": ["https://testnet.aurora.dev/"],
-    "subgraph": ["https://auromony-subgraph.loca.lt/subgraphs/name/connext/nxtp-aurora-testnet"],
+    "subgraph": ["https://auromonysubgraph.loca.lt/subgraphs/name/connext/nxtp-aurora-testnet"],
     "analyticsSubgraph": [""],
     "faucets": [],
     "gasStations": [],
