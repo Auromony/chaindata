@@ -1781,29 +1781,15 @@
         "mainnetEquivalent": "0x799a4202c12ca952cB311598a024C80eD371a41e",
         "decimals": 18
       },
-      "0x3c2b8be99c50593081eaa2a724f0b8285f5aba8f": {
-        "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
-      },
       "0x985458e523db3d53125813ed68c274899e9dfab4": {
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
-      },
-      "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
-        "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
       }
     },
     "rpc": ["https://api.harmony.one/"],
-    "subgraph": [
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-harmonyone-v1-runtime"
-    ],
-    "analyticsSubgraph": [
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-harmonyone-v1-analytics"
-    ],
+    "subgraph": ["http://localhost:8000/subgraphs/name/connext/nxtp-harmonyone"],
+    "analyticsSubgraph": [""],
     "faucets": [],
     "gasStations": [],
     "explorers": [{ "url": "https://explorer.harmony.one/" }],
@@ -1839,6 +1825,33 @@
     "faucets": [],
     "gasStations": [],
     "explorers": [{ "url": "https://explorer.pops.one/" }],
+    "gasEstimates": {}
+  },
+  {
+    "name": "Aurora",
+    "chainId": 1313161554,
+    "domainId": "",
+    "confirmations": 10,
+    "shortName": "Aurora",
+    "nativeCurrency": {
+      "name": "Aurora Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "type": "mainnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://mainnet.aurora.dev"],
+    "subgraph": ["http://localhost:8000/subgraphs/name/connext/nxtp-aurora"],
+    "analyticsSubgraph": [""],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [{ "url": "https://aurorascan.dev" }],
     "gasEstimates": {}
   },
   {
