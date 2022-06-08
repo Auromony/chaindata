@@ -1788,7 +1788,7 @@
       }
     },
     "rpc": ["https://api.harmony.one/"],
-    "subgraph": ["http://localhost:8000/subgraphs/name/connext/nxtp-harmonyone"],
+    "subgraph": ["http://34.238.30.189:8000/subgraphs/name/connext/nxtp-harmonyone"],
     "analyticsSubgraph": [""],
     "faucets": [],
     "gasStations": [],
@@ -1847,7 +1847,7 @@
       }
     },
     "rpc": ["https://mainnet.aurora.dev"],
-    "subgraph": ["http://localhost:8000/subgraphs/name/connext/nxtp-aurora"],
+    "subgraph": ["http://34.238.30.189:8000/subgraphs/name/connext/nxtp-aurora"],
     "analyticsSubgraph": [""],
     "faucets": [],
     "gasStations": [],
